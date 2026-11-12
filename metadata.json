@@ -1,0 +1,6 @@
+{
+  "name": "DocuHub - Open Public Document Archive & Repository Portal",
+  "description": "Public document repository and file manager with category organization, metadata tables, tag & subject search, GitHub sync, and automated PDF report generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

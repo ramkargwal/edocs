@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+:root {
+  --bg-mint: #D1FAE5;
+  --bg-cyan: #CFFAFE;
+  --bg-sky: #BFDBFE;
+  --card-bg: #FFFFFF;
+  --accent-primary: #3B82F6;
+  --accent-primary-hover: #2563EB;
+  --accent-secondary: #06B6D4;
+  --text-main: #1F2937;
+  --text-secondary: #6B7280;
+  --border-light: #D1D5DB;
+  --hover-bg: #E5E7EB;
+  --focus-ring: #3B82F6;
+  --status-success: #10B981;
+  --status-error: #EF4444;
+}
+
+body {
+  background: linear-gradient(to bottom right, #D1FAE5, #CFFAFE, #BFDBFE);
+  background-attachment: fixed;
+  color: #1F2937;
+}
